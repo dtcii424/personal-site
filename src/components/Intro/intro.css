@@ -1,4 +1,7 @@
 .i{
     font-size: large;
     color: blueviolet;
+    display: flex;
+    background-color: aquamarine;
+    height: 100vh;
 }
