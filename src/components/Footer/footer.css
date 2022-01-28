@@ -1,5 +1,16 @@
 .f{
-    color: chartreuse;
-    height: 10vh;
-    background-color: darkslategrey;
+    color: #8ee4af;
+    height: auto;
+    background-color: #282828;
+    text-align: center;
+    padding: 1%;
+}
+
+.f-h3{
+    font-size: smaller;
+    margin: 0%;
+}
+
+.f-button{
+    color: #edf5e1;
 }
