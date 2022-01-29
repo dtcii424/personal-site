@@ -4,16 +4,16 @@ import { Icon } from '@iconify/react';
 
 import { useRef } from "react";
 const Intro = () => {
-    const aboutPart = useRef(null);
+    const aboutSection = useRef(null);
 
     const myFunc = () =>
         window.scrollTo({
-            top: aboutPart.current.offsetTop + aboutPart.current.offsetHeight,
+            top: aboutSection.current.offsetTop + aboutSection.current.offsetHeight,
             behavior: "smooth"
         });
 
     return(
-        <div id="i" ref={aboutPart}>
+        <div id="i" ref={aboutSection}>
             <div className="i-content">
                 <img className="i-profilePic" src={Portrait} alt="Derek Cox II"></img>
                 <h1>Derek Cox II</h1>
