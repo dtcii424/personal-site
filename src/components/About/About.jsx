@@ -14,7 +14,7 @@ const About = () => {
                 <div className="a-card1">
                     <h3 style={{fontSize: "32px"}}>Bio</h3>
                     <h5>
-                        Hey! I'm Derek, a software engineer currently working for the U.S. Department
+                        I'm Derek, a software engineer currently working for the U.S. Department
                         of Defense. I graduated Magna Cum Laude with a BS in Computer Science from the University
                         of Texas at San Antonio in December 2021. In my free time, I love programming my own personal
                         projects, exploring tech, and competing in hackathons with my friends. I also enjoy watching
