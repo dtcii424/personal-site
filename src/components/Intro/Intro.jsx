@@ -19,13 +19,21 @@ const Intro = () => {
                 <h1>Derek Cox II</h1>
                 <h3>Software Engineer</h3>
                 <div className="i-buttons">
-                    <a href="https://github.com/dtcii424">
+                    <a 
+                        href="https://github.com/dtcii424"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                    >
                         <Icon 
                             icon="akar-icons:github-fill" 
                             className="i-icon"
                         />
                     </a>
-                    <a href="https://www.linkedin.com/in/derek-cox-ii-b45165174">
+                    <a
+                        href="https://www.linkedin.com/in/derek-cox-ii-b45165174"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <Icon
                             icon="akar-icons:linkedin-fill" 
                             className="i-icon"
